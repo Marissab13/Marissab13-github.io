@@ -1,9 +1,19 @@
+html {
+    height: 100%;
+}
+
 body {
 	background: #E1F3F3;
 	font: bold 20px/30px Georgia, serif;
 	float: left;
+    background: pink;
+    background: linear-gradient(white, pink);
+    margin: 0;
 }
 
+.contact {
+    background: pink;
+}
 header {
 
 	font: bold 26px/36px Georgia, serif;
@@ -11,9 +21,9 @@ header {
 
 span {
  	float: left;
-    width: 0.7em;
+    width: 0.8em;
     font-size: 400%;
-    font: Georgia, serif;
+    font: Georgia bold, serif;
     line-height: 80%;
 
 }
@@ -22,12 +32,12 @@ table {
 	 border: 1px solid black;
 	 text-align: left;
 	 padding: 20px;
-
+    
 
 }
 
 th {
-    background-color: pink;
+    background-color: #DB7093;
     color: black;
 }
 
@@ -36,4 +46,17 @@ img {
     border-width: 5px;
     margin: auto;
     float: right;
+
 }
+
+.link:visited {
+    color: #663399;
+}
+
+.footer {
+    color: #696969;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+}  
+
